@@ -71,7 +71,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -89,7 +89,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -98,7 +98,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Message
@@ -108,16 +108,16 @@ class Profile extends React.Component {
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
-                        </div>
-                        <div>
                           <span className="heading">10</span>
-                          <span className="description">Photos</span>
+                          <span className="description">Connections</span>
                         </div>
                         <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
+                          <span className="heading">32</span>
+                          <span className="description">Repo</span>
+                        </div>
+                        <div>
+                          <span className="heading">3</span>
+                          <span className="description">Projects</span>
                         </div>
                       </div>
                     </Col>
@@ -125,7 +125,7 @@ class Profile extends React.Component {
                   <div className="text-center mt-5">
                     <h3>
                       Jamal Eldeen Wari{" "}
-                      <span className="font-weight-light">, 27</span>
+                      <span className="font-weight-light">, 24</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -144,9 +144,24 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                        I graduated from Arab Open University with a Computer Science degree. I really love coding a lot sometimes it can get confusing but the majority is fun
+                          In Fall 2021 I graduated with a bachelor’s degree in
+                          Computing and Information Technology from Arab Open
+                          University. Modules studied during my degree include
+                          Object-Oriented Programming using Java, Algorithms,
+                          Data Structure and Computability, Data Management and
+                          Analysis, Computer Architecture, Logic and Information
+                          Technology, Software Engineering, and Operating
+                          Systems using Linux. My natural curiosity for
+                          computers is what drove me towards my degree. I've
+                          always wanted to know what is happening in the
+                          background in terms of logic and processes and to know
+                          how hardware components really work. I am now excited
+                          to secure a role that demands the use of the skills
+                          gained during my studies. I love to connect with new
+                          people and build new relationships, so feel free to
+                          send me a message.
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
