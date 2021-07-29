@@ -25,6 +25,7 @@ import team1 from "assets/img/theme/team-1-800x800.jpg";
 import team2 from "assets/img/theme/team-2-800x800.jpg";
 import team3 from "assets/img/theme/team-3-800x800.jpg";
 import team4 from "assets/img/theme/team-4-800x800.jpg";
+import image from "assets/img/theme/Coffee.jpg";
 
 // reactstrap components
 import {
@@ -253,7 +254,7 @@ class Landing extends React.Component {
                   <img
                     alt="..."
                     className="img-fluid floating"
-                    src={promo1}
+                    src={image}
                   />
                 </Col>
                 <Col className="order-md-1" md="6">
@@ -364,7 +365,8 @@ class Landing extends React.Component {
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>My Background</h3>
+                    <h3>My Proffesional Pitch</h3>
+                    <p> This is the first time seeing myself talking in a video but it was not bad i was expecting to be very hard in just took me few takes and it looks good for me. Here is a link for my:</p>
                     <p className="lead">
                     <a href="https://drive.google.com/file/d/16gnQ4vBSY6Ku8UqWsK3qZy63CI0rn8jN/view?usp=sharing">Profesional Pitch</a>
                     </p>

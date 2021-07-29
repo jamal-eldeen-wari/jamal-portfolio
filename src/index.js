@@ -36,16 +36,16 @@ ReactDOM.render(
       {/* <Route path="/" exact render={props => <Index {...props} />} /> */}
       <Route path="/how-to" exact render={props => <Index {...props} />} />
      {/* OG Copy */}
-      {/* <Route
+      <Route
         path="/landing-page"
         exact
         render={props => <Landing {...props} />}
-      /> */}
-       <Route
+      />
+       {/* <Route
         path="/portfolio"
         exact
         render={props => <Landing {...props} />}
-      />
+      /> */}
       <Route path="/login-page" exact render={props => <Login {...props} />} />
       {/* OG COPY */}
       {/* <Route
