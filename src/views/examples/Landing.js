@@ -46,10 +46,10 @@ import {
 
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
-import CardsFooter from "components/Footers/CardsFooter.js";
+// import CardsFooter from "components/Footers/CardsFooter.js";
 
 // index page sections
-import Download from "../IndexSections/Download.js";
+// import Download from "../IndexSections/Download.js";
 
 class Landing extends React.Component {
   state = {};
@@ -88,7 +88,7 @@ class Landing extends React.Component {
                       <p className="lead text-white">
                       when i was a kid my father used to have a PC and i always feel satisfied when i see the Microsoft Windows startup screen when you first open the PC and i remeber myself looking at all the folders that are inside of the PC and the question that arises for me is that how can the computer do that and how can a computer know that this icon is different from another icon in the desktop and how games work. Because of that i decided after finishing high school to enter computer science in college to understand how the computer operates and how software and hardware are connected to each other.
                       </p>
-                      <div className="btn-wrapper">
+                      {/* <div className="btn-wrapper">
                         <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
@@ -111,7 +111,7 @@ class Landing extends React.Component {
                             Download React
                           </span>
                         </Button>
-                      </div>
+                      </div> */}
                     </Col>
                   </Row>
                 </div>
@@ -850,9 +850,9 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section> */}
-          <Download />
+          {/* <Download /> */}
         </main>
-        <CardsFooter />
+        {/* <CardsFooter /> */}
       </>
     );
   }

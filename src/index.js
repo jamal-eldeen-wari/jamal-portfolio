@@ -33,11 +33,11 @@ ReactDOM.render(
   <BrowserRouter>
     <Switch>
       {/* OG copy */}
-      {/* <Route path="/" exact render={props => <Index {...props} />} /> */}
       <Route path="/how-to" exact render={props => <Index {...props} />} />
+      {/* <Route path="/how-to" exact render={props => <Index {...props} />} /> */}
      {/* OG Copy */}
       <Route
-        path="/landing-page"
+        path="/portfolio"
         exact
         render={props => <Landing {...props} />}
       />
