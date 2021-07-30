@@ -150,7 +150,7 @@ class Landing extends React.Component {
                             Code 201 Final Project (Vip Coffee)
                           </h6>
                           <p className="description mt-3">
-                           Vip Coffee is an online coffee shop that allows that allows its customers to order coffee on the go. Vip Coffee has been built by using:
+                           Vip Coffee is an online coffee shop that allows it`s customers to order coffee on the go. Vip Coffee has been built by using:
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
